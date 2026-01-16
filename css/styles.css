@@ -77,7 +77,13 @@ nav a:focus {
 .hero-button {
     background-color: #4d5ae5;
     color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 .hero-button:hover {
@@ -119,7 +125,7 @@ nav a:focus {
     letter-spacing: 0.03em;
     color: #2e2f42;
 }
-footer .logo {
+.footer .logo {
     color: #ffffff;
 }
 .portfolio-list .title {
@@ -128,3 +134,5 @@ footer .logo {
     line-height: 1.2;
     color: #2e2f42;   
 }
+Fix hero button size according to Figma
+
