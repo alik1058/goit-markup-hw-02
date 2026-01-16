@@ -27,9 +27,9 @@ body {
     color: #ffffff;
 }
 .section-title {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1.333;
+    line-height: 1.11;
     color: #2e2f42;
 }
 
@@ -39,7 +39,7 @@ body {
     color: #434455;
 }
 
-.section{
+.section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -73,7 +73,8 @@ nav a:focus {
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
-    text-align: center;}
+    text-align: center;
+}
 .hero-button {
     background-color: #4d5ae5;
     color: #ffffff;
@@ -86,9 +87,7 @@ nav a:focus {
     border-radius: 4px;
     cursor: pointer;
 }
-.hero-button:hover {
-    background-color: #404bbf;
-}
+.hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
 }
@@ -125,8 +124,31 @@ nav a:focus {
     letter-spacing: 0.03em;
     color: #2e2f42;
 }
+.logo-accent {
+    color: #4d5ae5;
+}
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
 .footer .logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0,03em;
     color: #ffffff;
+}
+.logo-web {
+    color: #4d5ae5;
+}
+.footer .logo-accent {
+    color: #4d5ae5;
+}
+.footer-text {
+    line-height: 1.5;
+    color: #f4f4fd;
+    max-width: 264px;
+    margin-top: 16px;
 }
 .portfolio-list .title {
     font-size: 20px;
@@ -135,4 +157,5 @@ nav a:focus {
     color: #2e2f42;   
 }
 Fix hero button size according to Figma
+
 
