@@ -31,6 +31,7 @@ body {
     font-weight: 700;
     line-height: 1.11;
     color: #2e2f42;
+    text-align: center;
 }
 
 .section-text {
@@ -156,6 +157,7 @@ nav a:focus {
     line-height: 1.2;
     color: #2e2f42;   
 }
-Fix hero button size according to Figma
+
+
 
 
